@@ -1,0 +1,12 @@
+.header {
+  box-shadow: 0 3px 14px 1px rgba(152, 152, 152, 0.2);
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 16px 0;
+}
