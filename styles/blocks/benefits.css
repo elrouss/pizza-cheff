@@ -1,0 +1,25 @@
+.benefits {
+  display: grid;
+  grid-template-areas:
+    "img title"
+    "img description";
+  column-gap: 17px;
+}
+
+.benefits__img {
+  grid-area: img;
+  align-self: center;
+  width: 60px;
+  aspect-ratio: 1 / 1;
+}
+
+.benefits__title {
+  grid-area: title;
+  text-transform: uppercase;
+  color: var(--color-brand-1);
+}
+
+.benefits__description {
+  grid-area: description;
+  color: var(--color-primary-2);
+}
