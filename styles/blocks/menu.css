@@ -1,0 +1,13 @@
+.menu__list {
+  display: flex;
+  column-gap: 50px;
+}
+
+.menu__link {
+  color: var(--color-primary-1);
+  transition: opacity var(--transition-duration-basic) var(--transition-timing-function-basic);
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
