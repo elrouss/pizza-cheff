@@ -1,0 +1,29 @@
+.hero__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: var(--container-basic);
+    margin: 0 auto;
+}
+
+.hero__title {
+    max-width: 630px;
+    color: var(--color-primary-2);
+}
+
+.hero__title_accent {
+    color: var(--color-brand-1);
+}
+
+.hero__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(201px, auto));
+    gap: 47px;
+    max-width: 645px;
+}
+
+.hero__bg-img {
+    width: 520px;
+    height: 342px;
+    background: url(../../assets/images/pizza_hero.png) center no-repeat;
+}

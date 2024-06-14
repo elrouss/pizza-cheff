@@ -14,6 +14,8 @@
     --color-brand-1: #ffaf18;
     --color-brand-2: #ffc468;
 
+    --container-basic: 1200px;
+
     --transition-duration-basic: 0.3s;
     --transition-timing-function-basic: ease-in-out;
 }

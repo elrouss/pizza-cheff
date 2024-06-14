@@ -1,7 +1,11 @@
 @import url(./fonts.css);
 @import url(./variables.css);
 @import url(./global.css);
+@import url(./indents.css);
 
+@import url(./blocks/button.css);
 @import url(./blocks/header.css);
 @import url(./blocks/logo.css);
 @import url(./blocks/menu.css);
+@import url(./blocks/hero.css);
+@import url(./blocks/benefits.css);

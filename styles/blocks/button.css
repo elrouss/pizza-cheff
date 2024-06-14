@@ -1,16 +1,14 @@
-.menu__list {
-  display: flex;
-  column-gap: 50px;
-}
-
-.menu__link {
-  color: var(--color-primary-1);
+.button {
+  padding: 22px 53px;
+  color: var(--color-secondary-1);
+  background-color: var(--color-brand-1);
   transition: opacity var(--transition-duration-basic)
     var(--transition-timing-function-basic);
+  user-select: none;
 
   @media (hover: hover) {
     &:hover {
-      opacity: 0.7;
+      opacity: 0.9;
     }
   }
 }
