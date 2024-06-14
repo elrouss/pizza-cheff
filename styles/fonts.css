@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Muller';
+    font-weight: 900;
+    font-style:  normal;
+    font-display: swap;
+    src:
+        url(../assets/fonts/Muller-Trial-Fat.woff2) format('woff2'),
+        url(../assets/fonts/Muller-Trial-Fat.woff) format('woff'),
+        url(../assets/fonts/Muller-Trial-Fat.otf) format('otf'),
+        url(../assets/fonts/Muller-Trial-Fat.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Muller';
+    font-weight: 800;
+    font-style:  normal;
+    font-display: swap;
+    src:
+        url(../assets/fonts/Muller-Trial-ExtraBold.woff2) format('woff2'),
+        url(../assets/fonts/Muller-Trial-ExtraBold.woff) format('woff'),
+        url(../assets/fonts/Muller-Trial-ExtraBold.otf) format('otf'),
+        url(../assets/fonts/Muller-Trial-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Muller';
+    font-weight: 700;
+    font-style:  normal;
+    font-display: swap;
+    src:
+        url(../assets/fonts/Muller-Trial-Bold.woff2) format('woff2'),
+        url(../assets/fonts/Muller-Trial-Bold.woff) format('woff'),
+        url(../assets/fonts/Muller-Trial-Bold.otf) format('otf'),
+        url(../assets/fonts/Muller-Trial-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Muller';
+    font-weight: 400;
+    font-style:  normal;
+    font-display: swap;
+    src:
+        url(../assets/fonts/Muller-Trial-Regular.woff2) format('woff2'),
+        url(../assets/fonts/Muller-Trial-Regular.woff) format('woff'),
+        url(../assets/fonts/Muller-Trial-Regular.otf) format('otf'),
+        url(../assets/fonts/Muller-Trial-Regular.ttf) format('truetype');
+}
+
+.h1 {
+    font-family: Muller, Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+.h2 {
+    font-family: Muller, Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 2.8125rem;
+    line-height: calc(55 / 45 * 100%);
+}
+
+.h3 {
+    font-family: Muller, Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 2.1875rem;
+    line-height: calc(45 / 35 * 100%);
+}
+
+.h4 {
+    font-family: Muller, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2.1875rem;
+    line-height: calc(55 / 35 * 100%);
+}
+
+.h5 {
+    font-family: Muller, Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+    line-height: calc(24 / 16 * 100%);
+}
+
+.t1 {
+    font-family: Muller, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: calc(55 / 18 * 100%);
+}
+
+.t2 {
+    font-family: Muller, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 100%;
+}
+
+.t3 {
+    font-family: Muller, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: calc(18 / 14 * 100%);
+}
