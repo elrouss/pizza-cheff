@@ -1,27 +1,6 @@
 .fullScreenModal {
-  position: fixed;
-  inset: 0;
   width: 100%;
   height: 100%;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity var(--transition-duration-basic)
-      var(--transition-timing-function-basic),
-    visibility var(--transition-duration-basic)
-      var(--transition-timing-function-basic);
-
-  &::before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-  }
-}
-
-.fullScreenModal_visible {
-  opacity: 1;
-  visibility: visible;
 }
 
 .fullScreenModal__img {
@@ -33,31 +12,11 @@
 }
 
 .fullScreenModal__close-button {
-  position: absolute;
   top: 40px;
   right: 40px;
-  width: 30px;
-  height: 30px;
-  transform: rotate(45deg);
 
   &::before,
   &::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 6px;
     background-color: var(--color-white);
-  }
-
-  &::before {
-    width: 100%;
-    height: 2px;
-  }
-
-  &::after {
-    width: 2px;
-    height: 100%;
   }
 }

@@ -11,6 +11,11 @@
       opacity: 0.85;
     }
   }
+
+  &:disabled {
+    background-color: var(--color-disabled);
+    pointer-events: none;
+  }
 }
 
 .button_small {

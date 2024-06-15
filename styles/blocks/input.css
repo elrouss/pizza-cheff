@@ -1,9 +1,18 @@
 .input {
-    padding: 12px 24px 4px;
-    border: 1px solid var(--color-primary-2);
-    color: var(--color-primary-4);
+  width: 100%;
+  padding: 12px 24px 4px;
+  border: 1px solid var(--color-primary-2);
+  color: var(--color-primary-4);
 
-    &::placeholder {
-        color: var(--color-primary-4);
-    }
+  &::placeholder {
+    color: var(--color-primary-4);
+  }
+}
+
+.input_error {
+  color: var(--color-error);
+
+  &:focus {
+    outline-color: var(--color-error);
+  }
 }

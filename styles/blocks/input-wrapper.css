@@ -1,0 +1,13 @@
+.input-wrapper__error {
+    display: block;
+    min-height: 18px;
+    margin-top: 4px;
+    color: var(--color-error);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.input-wrapper__error_visible {
+    visibility: visible;
+    opacity: 1;
+}
