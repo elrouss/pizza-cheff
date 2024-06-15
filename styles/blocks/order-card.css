@@ -1,0 +1,31 @@
+.order-card {
+  display: grid;
+  align-items: center;
+  height: 100%;
+  padding: 27px 20px 15px;
+  box-shadow: 0 3px 14px 1px rgba(152, 152, 152, 0.2);
+}
+
+.order-card__title {
+  margin-top: 12px;
+  text-align: center;
+  color: var(--color-secondary-1);
+}
+
+.order-card__description {
+  margin-top: 24px;
+  text-align: center;
+  color: var(--color-secondary-2);
+}
+
+.order-card__img {
+    width: 214px;
+    height: 143px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.order-card__button {
+  align-self: flex-end;
+  margin-top: 35px;
+}

@@ -27,3 +27,7 @@
     height: 342px;
     background: url(../../assets/images/pizza_hero.png) center no-repeat;
 }
+
+.hero__button {
+    display: inline-flex;
+}
