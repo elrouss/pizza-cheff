@@ -18,8 +18,17 @@
   max-width: 100px;
   text-transform: uppercase;
   color: var(--color-brand-2);
+
+  @media screen and (max-width: 1919px) {
+    max-width: calc(50px + (50 + 50 * 0.7) * (100vw - 320px) / 1919);
+  }
 }
 
 .logo__img {
   animation: rotate infinite 10s linear;
+
+  @media screen and (max-width: 1919px) {
+    width: calc(34px + (34 + 34 * 0.7) * (100vw - 320px) / 1919);
+    height: calc(34px + (34 + 34 * 0.7) * (100vw - 320px) / 1919);
+  }
 }

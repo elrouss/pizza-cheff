@@ -39,7 +39,7 @@
 
   <body>
     <header class="header">
-      <div class="header__wrapper">
+      <div class="header__wrapper mg-inline-container-basic">
         <a class="logo" href="#" aria-label="Перейти на главную страницу">
           <img
             class="logo__img"
@@ -68,15 +68,43 @@
             </li>
           </ul>
         </nav>
+
+        <button class="burger" type="button" aria-label="Открыть меню">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </button>
+
+        <div class="mobile-menu">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__link t3" href="#">Пиццы</a>
+              </li>
+
+              <li class="menu__list-item">
+                <a class="menu__link t3" href="#">Напитки</a>
+              </li>
+
+              <li class="menu__list-item">
+                <a class="menu__link t3" href="#">Доставка и оплата</a>
+              </li>
+
+              <li>
+                <a class="menu__link t3" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
 
     <main class="main">
-      <section class="hero mg-t-m wow fadeIn slower">
+      <section class="hero mg-t-m mg-inline-container-basic wow fadeIn slower">
         <div class="hero__text">
           <h1 class="hero__title h2">
-            Самая вкусная пицца в мире
-            <strong class="hero__title_accent">только в Pizza Cheff</strong>
+            Самая вкусная пицца в&nbsp;мире
+            <strong class="hero__title_accent">только в&nbsp;Pizza Cheff</strong>
           </h1>
 
           <ul class="hero__list"></ul>
@@ -87,13 +115,18 @@
         <div class="hero__bg-img"></div>
       </section>
 
-      <section class="favorite mg-t-l wow fadeInUp slower" id="favorite">
+      <section
+        class="favorite mg-t-l mg-inline-container-basic wow fadeInUp slower"
+        id="favorite"
+      >
         <h2 class="favorite__title h3">Выберите свою любимую пиццу</h2>
 
         <ul class="favorite__list"></ul>
       </section>
 
-      <section class="order mg-t-xl wow fadeInLeft slower">
+      <section
+        class="order mg-t-xl mg-inline-container-basic wow fadeInLeft slower"
+      >
         <div class="order__text">
           <h2 class="order__title t1">
             Хватит думать!
@@ -247,6 +280,7 @@
       src="./scripts/components/formValidator/index.js"
       type="module"
     ></script>
+    <script src="./scripts/components/burger/index.js" type="module"></script>
     <script src="./scripts/components/modal/index.js" type="module"></script>
     <script src="./scripts/components/order/index.js" type="module"></script>
     <script

@@ -4,10 +4,19 @@
   max-width: var(--container-basic);
   margin-right: auto;
   margin-left: auto;
+
+  @media screen and (max-width: 1279px) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .order__text {
   max-width: 430px;
+
+  @media screen and (max-width: 1279px) {
+    max-width: none;
+  }
 }
 
 .order__title {
@@ -22,6 +31,10 @@
 .order__description {
   margin-top: 61px;
   color: var(--color-primary-2);
+
+  @media screen and (max-width: 1279px) {
+    margin-top: calc(30px + (31 + 31 * 0.7) * (100vw - 320px) / 1919);
+  }
 }
 
 .order__form {
@@ -30,6 +43,15 @@
   width: 27.5%;
   margin-top: 3.9%;
   margin-left: 6.7%;
+
+  @media screen and (max-width: 1919px) {
+    margin-left: 2.5%;
+  }
+
+  @media screen and (max-width: 1279px) {
+    width: 100%;
+    margin-left: 0;
+  }
 }
 
 .order__bg-img {
@@ -40,4 +62,17 @@
   width: 410px;
   height: 454px;
   background: url(../../assets/images/pizzzzza.png) center no-repeat;
+  background-size: contain;
+
+  @media screen and (max-width: 1919px) {
+    width: calc(185px + (185 + 185 * 0.7) * (100vw - 320px) / 1919);
+    height: calc(207px + (207 + 207 * 0.7) * (100vw - 320px) / 1919);
+    transform: translate(8%, -12%);
+  }
+
+  @media screen and (max-width: 1279px) {
+    position: static;
+    margin-top: calc(30px + (31 + 31 * 0.7) * (100vw - 320px) / 1919);
+    transform: none;
+  }
 }

@@ -1,4 +1,5 @@
 .header {
+  position: relative;
   box-shadow: 0 3px 14px 1px rgba(152, 152, 152, 0.2);
 }
 
@@ -9,4 +10,23 @@
   max-width: var(--container-basic);
   margin: 0 auto;
   padding: 16px 0;
+
+  & > .burger {
+    display: none;
+  }
+
+  @media screen and (max-width: 1919px) {
+    justify-content: space-between;
+    column-gap: normal;
+  }
+
+  @media screen and (max-width: 1171px) {
+    & > .menu {
+      display: none;
+    }
+
+    & > .burger {
+      display: inline-flex;
+    }
+  }
 }

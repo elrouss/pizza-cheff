@@ -16,9 +16,18 @@
     background-color: var(--color-disabled);
     pointer-events: none;
   }
+
+  @media screen and (max-width: 1171px) {
+    padding: 11px 26px;
+  }
 }
 
 .button_small {
   padding-top: 15px;
   padding-bottom: 15px;
+
+  @media screen and (max-width: 1171px) {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
 }

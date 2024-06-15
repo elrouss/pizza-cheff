@@ -11,6 +11,10 @@
   align-self: center;
   width: 60px;
   aspect-ratio: 1 / 1;
+
+  @media screen and (max-width: 1919px) {
+    width: calc(30px + (30 + 30 * 0.7) * (100vw - 320px) / 1919);
+  }
 }
 
 .benefits__title {

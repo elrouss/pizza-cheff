@@ -7,6 +7,10 @@
   &::placeholder {
     color: var(--color-primary-4);
   }
+
+  @media screen and (max-width: 1171px) {
+    padding: 8px 16px 4px;
+  }
 }
 
 .input_error {

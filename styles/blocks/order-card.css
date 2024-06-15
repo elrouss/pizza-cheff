@@ -30,9 +30,18 @@
       transform: scale(1.1);
     }
   }
+
+  @media screen and (max-width: 1919px) {
+    width: calc(143px + (71 + 71 * 0.7) * (100vw - 320px) / 1919);
+    height: calc(95px + (48 + 48 * 0.7) * (100vw - 320px) / 1919);
+  }
 }
 
 .order-card__button {
   align-self: flex-end;
   margin-top: 35px;
+
+  @media screen and (max-width: 1919px) {
+    margin-top: calc(17px + (18 + 18 * 0.7) * (100vw - 320px) / 1919);
+  }
 }
