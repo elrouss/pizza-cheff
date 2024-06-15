@@ -18,10 +18,18 @@
 }
 
 .order-card__img {
-    width: 214px;
-    height: 143px;
-    margin: 0 auto;
-    cursor: pointer;
+  width: 214px;
+  height: 143px;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: transform var(--transition-duration-basic)
+    var(--transition-timing-function-basic);
+
+  @media (hover: hover) {
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
 }
 
 .order-card__button {

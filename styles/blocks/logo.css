@@ -1,3 +1,13 @@
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -8,4 +18,8 @@
   max-width: 100px;
   text-transform: uppercase;
   color: var(--color-brand-2);
+}
+
+.logo__img {
+  animation: rotate infinite 10s linear;
 }

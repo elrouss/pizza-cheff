@@ -30,6 +30,10 @@
       href="./assets/favicon/favicon-16x16.png"
     />
     <link rel="stylesheet" href="./styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css"
+    />
     <title>Pizza Cheff</title>
   </head>
 
@@ -68,7 +72,7 @@
     </header>
 
     <main class="main">
-      <section class="hero mg-t-m">
+      <section class="hero mg-t-m wow fadeIn slower">
         <div class="hero__text">
           <h1 class="hero__title h2">
             Самая вкусная пицца в мире
@@ -142,7 +146,7 @@
         <div class="hero__bg-img"></div>
       </section>
 
-      <section class="favorite mg-t-l" id="favorite">
+      <section class="favorite mg-t-l wow fadeInUp slower" id="favorite">
         <h2 class="favorite__title h3">Выберите свою любимую пиццу</h2>
 
         <ul class="favorite__list">
@@ -164,7 +168,10 @@
                 соус чили, ананасы
               </p>
 
-              <button class="button button_small b order-card__button" type="button">
+              <button
+                class="button button_small b order-card__button"
+                type="button"
+              >
                 В корзину
               </button>
             </article>
@@ -187,7 +194,10 @@
                 Перец, сыр, креветки, кальмары, мидии, лосось
               </p>
 
-              <button class="button button_small b order-card__button" type="button">
+              <button
+                class="button button_small b order-card__button"
+                type="button"
+              >
                 В корзину
               </button>
             </article>
@@ -210,7 +220,10 @@
                 Бекон, сыр, сосиски, ананас, томатная паста
               </p>
 
-              <button class="button button_small b order-card__button" type="button">
+              <button
+                class="button button_small b order-card__button"
+                type="button"
+              >
                 В корзину
               </button>
             </article>
@@ -233,7 +246,10 @@
                 Курица, ананас, сыр Пепперони, соус для пиццы, томатная паста
               </p>
 
-              <button class="button button_small b order-card__button" type="button">
+              <button
+                class="button button_small b order-card__button"
+                type="button"
+              >
                 В корзину
               </button>
             </article>
@@ -257,7 +273,10 @@
                 чили
               </p>
 
-              <button class="button button_small b order-card__button" type="button">
+              <button
+                class="button button_small b order-card__button"
+                type="button"
+              >
                 В корзину
               </button>
             </article>
@@ -280,7 +299,10 @@
                 Пепперони, сыр, колбаса 2 видов: обжаренная и вареная
               </p>
 
-              <button class="button button_small b order-card__button" type="button">
+              <button
+                class="button button_small b order-card__button"
+                type="button"
+              >
                 В корзину
               </button>
             </article>
@@ -304,7 +326,10 @@
                 грибы, соус для пиццы
               </p>
 
-              <button class="button button_small b order-card__button" type="button">
+              <button
+                class="button button_small b order-card__button"
+                type="button"
+              >
                 В корзину
               </button>
             </article>
@@ -327,7 +352,10 @@
                 Сыр Джюгас, Сыр с плесенью, Сыр Моцарелла, Сыр секретный
               </p>
 
-              <button class="button button_small b order-card__button" type="button">
+              <button
+                class="button button_small b order-card__button"
+                type="button"
+              >
                 В корзину
               </button>
             </article>
@@ -335,7 +363,7 @@
         </ul>
       </section>
 
-      <section class="order mg-t-xl">
+      <section class="order mg-t-xl wow fadeInLeft slower">
         <div class="order__text">
           <h2 class="order__title t1">
             Хватит думать!
@@ -380,5 +408,9 @@
     </main>
 
     <script src="./scripts/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
