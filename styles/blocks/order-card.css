@@ -7,13 +7,12 @@
 }
 
 .order-card__title {
-  margin-top: 12px;
   text-align: center;
+  margin-top: 10px;
   color: var(--color-secondary-1);
 }
 
 .order-card__description {
-  margin-top: 24px;
   text-align: center;
   color: var(--color-secondary-2);
 }

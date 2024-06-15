@@ -1,5 +1,5 @@
 .button {
-  padding: 22px 53px;
+  padding: 21px 53px;
   color: var(--color-secondary-1);
   background-color: var(--color-brand-1);
   transition: opacity var(--transition-duration-basic)
@@ -8,7 +8,12 @@
 
   @media (hover: hover) {
     &:hover {
-      opacity: 0.9;
+      opacity: 0.85;
     }
   }
+}
+
+.button_small {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }

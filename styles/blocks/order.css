@@ -15,10 +15,12 @@
 }
 
 .order__title_accent {
+  font-weight: inherit;
   color: var(--color-primary-2);
 }
 
 .order__description {
+  margin-top: 61px;
   color: var(--color-primary-2);
 }
 
@@ -26,10 +28,11 @@
   display: flex;
   flex-direction: column;
   width: 27.5%;
-  margin-left: 129px;
+  margin-top: 3.9%;
+  margin-left: 6.7%;
 
   & > *:not(:first-child) {
-    margin-top: 24px;
+    margin-top: 23px;
   }
 }
 
@@ -37,7 +40,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  transform: translate(50%, -15%);
+  transform: translate(31%, -12%);
   width: 410px;
   height: 454px;
   background: url(../../assets/images/pizzzzza.png) center no-repeat;

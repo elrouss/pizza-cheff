@@ -87,7 +87,6 @@
     font-family: Muller, Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 1.125rem;
-    line-height: calc(55 / 18 * 100%);
 }
 
 .t3 {
@@ -129,6 +128,6 @@
 .i {
     font-family: Muller, Arial, Helvetica, sans-serif;
     font-weight: 400;
-    font-size: 0.875rem;
+    font-size: 1.125rem;
     line-height: calc(45 / 18 * 100%);
 }

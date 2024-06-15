@@ -13,14 +13,16 @@
 }
 
 .hero__title_accent {
+    font-weight: inherit;
     color: var(--color-brand-1);
 }
 
 .hero__list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(201px, auto));
-    gap: 47px;
+    gap: 42px 47px;
     max-width: 645px;
+    margin-top: 40px;
 }
 
 .hero__bg-img {
@@ -31,4 +33,5 @@
 
 .hero__button {
     display: inline-flex;
+    margin-top: 58px;
 }

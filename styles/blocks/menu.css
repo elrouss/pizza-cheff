@@ -1,6 +1,6 @@
 .menu__list {
   display: flex;
-  column-gap: 50px;
+  column-gap: 49px;
 }
 
 .menu__link {
