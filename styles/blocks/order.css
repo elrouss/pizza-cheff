@@ -1,0 +1,44 @@
+.order {
+  position: relative;
+  display: flex;
+  max-width: var(--container-basic);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.order__text {
+  max-width: 430px;
+}
+
+.order__title {
+  color: var(--color-brand-1);
+}
+
+.order__title_accent {
+  color: var(--color-primary-2);
+}
+
+.order__description {
+  color: var(--color-primary-2);
+}
+
+.order__form {
+  display: flex;
+  flex-direction: column;
+  width: 27.5%;
+  margin-left: 129px;
+
+  & > *:not(:first-child) {
+    margin-top: 24px;
+  }
+}
+
+.order__bg-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -15%);
+  width: 410px;
+  height: 454px;
+  background: url(../../assets/images/pizzzzza.png) center no-repeat;
+}

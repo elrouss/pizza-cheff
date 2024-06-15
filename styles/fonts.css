@@ -113,8 +113,22 @@
     line-height: calc(18 / 14 * 100%);
 }
 
+.t5 {
+    font-family: Muller, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: calc(24 / 16 * 100%);
+}
+
 .b {
     font-family: Muller, Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 1rem;
+}
+
+.i {
+    font-family: Muller, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: calc(45 / 18 * 100%);
 }

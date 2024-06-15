@@ -1,9 +1,10 @@
-.hero__wrapper {
+.hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: var(--container-basic);
-    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .hero__title {

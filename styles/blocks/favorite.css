@@ -1,6 +1,7 @@
-.favorite__wrapper {
+.favorite {
   max-width: var(--container-basic);
-  margin: 0 auto;
+  margin-right: auto;
+    margin-left: auto;
 }
 
 .favorite__title {
