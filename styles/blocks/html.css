@@ -1,0 +1,4 @@
+.html_hidden {
+    overflow: hidden;
+    scrollbar-gutter: stable;
+}
