@@ -6,7 +6,6 @@
 
 .logo__title {
   max-width: 100px;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-brand-2);
 }

@@ -3,6 +3,7 @@
 @import url(./global.css);
 @import url(./indents.css);
 
+@import url(./blocks/main.css);
 @import url(./blocks/button.css);
 @import url(./blocks/header.css);
 @import url(./blocks/logo.css);
@@ -11,3 +12,5 @@
 @import url(./blocks/benefits.css);
 @import url(./blocks/favorite.css);
 @import url(./blocks/order-card.css);
+@import url(./blocks/order.css);
+@import url(./blocks/input.css);
