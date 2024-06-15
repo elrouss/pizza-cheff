@@ -1,0 +1,30 @@
+.mg-t-xl {
+  margin-top: 233px;
+
+  @media screen and (max-width: 1919px) {
+    margin-top: calc(50px + (183 + 183 * 0.7) * (100vw - 320px) / 1919);
+  }
+}
+
+.mg-t-l {
+  margin-top: 146px;
+
+  @media screen and (max-width: 1919px) {
+    margin-top: calc(50px + (96 + 96 * 0.7) * (100vw - 320px) / 1919);
+  }
+}
+
+.mg-t-m {
+  margin-top: 124px;
+
+  @media screen and (max-width: 1919px) {
+    margin-top: calc(50px + (74 + 74 * 0.7) * (100vw - 320px) / 1919);
+  }
+}
+
+.mg-inline-container-basic.mg-inline-container-basic {
+  @media screen and (max-width: 1279px) {
+    margin-right: calc(12px + (88 + 88 * 0.7) * (100vw - 320px) / 1919);
+    margin-left: calc(12px + (88 + 88 * 0.7) * (100vw - 320px) / 1919);
+  }
+}

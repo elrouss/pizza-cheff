@@ -1,0 +1,33 @@
+.button {
+  padding: 21px 53px;
+  color: var(--color-secondary-1);
+  background-color: var(--color-brand-1);
+  transition: opacity var(--transition-duration-basic)
+    var(--transition-timing-function-basic);
+  user-select: none;
+
+  @media (hover: hover) {
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+
+  &:disabled {
+    background-color: var(--color-disabled);
+    pointer-events: none;
+  }
+
+  @media screen and (max-width: 1171px) {
+    padding: 11px 26px;
+  }
+}
+
+.button_small {
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  @media screen and (max-width: 1171px) {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}

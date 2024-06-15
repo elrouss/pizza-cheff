@@ -1,0 +1,23 @@
+.mobile-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 16px;
+  background-color: var(--color-white);
+  box-shadow: 0 3px 14px 1px rgba(152, 152, 152, 0.2);
+  transform: translateY(0);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity var(--transition-duration-basic)
+      var(--transition-timing-function-basic),
+    visibility var(--transition-duration-basic)
+      var(--transition-timing-function-basic),
+    transform var(--transition-duration-basic)
+      var(--transition-timing-function-basic);
+}
+
+.mobile-menu_visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(60%);
+}

@@ -1,0 +1,29 @@
+.benefits {
+  display: grid;
+  grid-template-areas:
+    "img title"
+    "img description";
+  column-gap: 17px;
+}
+
+.benefits__img {
+  grid-area: img;
+  align-self: center;
+  width: 60px;
+  aspect-ratio: 1 / 1;
+
+  @media screen and (max-width: 1919px) {
+    width: calc(30px + (30 + 30 * 0.7) * (100vw - 320px) / 1919);
+  }
+}
+
+.benefits__title {
+  grid-area: title;
+  text-transform: uppercase;
+  color: var(--color-brand-1);
+}
+
+.benefits__description {
+  grid-area: description;
+  color: var(--color-primary-2);
+}

@@ -1,0 +1,20 @@
+.menu__list {
+  display: flex;
+  column-gap: 49px;
+
+  @media screen and (max-width: 1171px) {
+    flex-direction: column;
+  }
+}
+
+.menu__link {
+  color: var(--color-primary-1);
+  transition: opacity var(--transition-duration-basic)
+    var(--transition-timing-function-basic);
+
+  @media (hover: hover) {
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}

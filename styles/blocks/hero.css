@@ -1,0 +1,82 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: var(--container-basic);
+  margin-right: auto;
+  margin-left: auto;
+
+  @media screen and (max-width: 1279px) {
+    flex-direction: column;
+  }
+}
+
+.hero__text {
+  @media screen and (max-width: 1279px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.hero__title {
+  max-width: 630px;
+  color: var(--color-primary-2);
+
+  @media screen and (max-width: 1919px) {
+    max-width: calc(315px + (315 + 315 * 0.7) * (100vw - 320px) / 1919);
+  }
+}
+
+.hero__title_accent {
+  font-weight: inherit;
+  color: var(--color-brand-1);
+}
+
+.hero__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(201px, auto));
+  gap: 42px 47px;
+  max-width: 645px;
+  margin-top: 40px;
+
+  @media screen and (max-width: 1919px) {
+    gap: calc(21px + (21 + 21 * 0.7) * (100vw - 320px) / 1919)
+      calc(24px + (24 + 24 * 0.7) * (100vw - 320px) / 1919);
+    margin-top: calc(20px + (20 + 20 * 0.7) * (100vw - 320px) / 1919);
+  }
+
+  @media screen and (max-width: 1279px) {
+    width: 100%;
+  }
+}
+
+.hero__list-item {
+    display: flex;
+}
+
+.hero__bg-img {
+  width: 520px;
+  height: 342px;
+  background: url(../../assets/images/pizza_hero.png) center no-repeat;
+  background-size: contain;
+
+  @media screen and (max-width: 1919px) {
+    width: calc(260px + (260 + 260 * 0.7) * (100vw - 320px) / 1919);
+    height: calc(171px + (171 + 171 * 0.7) * (100vw - 320px) / 1919);
+  }
+
+  @media screen and (max-width: 1279px) {
+    margin-top: calc(30px + (31 + 31 * 0.7) * (100vw - 320px) / 1919);
+  }
+}
+
+.hero__button {
+  display: inline-flex;
+  margin-top: 58px;
+
+  @media screen and (max-width: 1919px) {
+    margin-top: calc(29px + (29 + 29 * 0.7) * (100vw - 320px) / 1919);
+  }
+}
