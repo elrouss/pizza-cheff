@@ -1,9 +1,10 @@
+import { UNICODE } from "../../constants/unicode.js";
+
 export const data = Object.freeze([
   {
     id: 1,
     title: "Лучшее тесто",
-    description:
-      "Мы\u2014создаем тесто только из\u2014отборной итальянской муки наивысшего качества",
+    description: `Мы${UNICODE.nbsp}создаем тесто только из${UNICODE.nbsp}отборной итальянской муки наивысшего качества`,
     img: "./assets/images/hop.png",
     alt: "Колосья",
   },
@@ -17,16 +18,14 @@ export const data = Object.freeze([
   {
     id: 3,
     title: "Гарантия качества",
-    description:
-      "Наша пиццерия получила множество наград и\u2014признаний по\u2014всему миру",
+    description: `Наша пиццерия получила множество наград и${UNICODE.nbsp}признаний по${UNICODE.nbsp}всему миру`,
     img: "./assets/images/seo_and_web.png",
     alt: "Знак качества",
   },
   {
     id: 4,
     title: "Отборные рецепты",
-    description:
-      "Мы\u2014используем рецепты от\u2014мировых лидеров в\u2014изготовлении пиццы",
+    description: `Мы${UNICODE.nbsp}используем рецепты от${UNICODE.nbsp}мировых лидеров в${UNICODE.nbsp}изготовлении пиццы`,
     img: "./assets/images/holidays.png",
     alt: "Подача блюда",
   },
